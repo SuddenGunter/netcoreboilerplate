@@ -2,11 +2,14 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <CrossGenDuringPublish>false</CrossGenDuringPublish>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishReadyToRun>true</PublishReadyToRun>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsNotAsErrors>NU1701, SA1611, SA1615, SA1633, SA1629, CS1591</WarningsNotAsErrors>
     <LangVersion>8</LangVersion>
     <Nullable>enable</Nullable>
-    <PublishReadyToRun>true</PublishReadyToRun>
     <NoWarn>SA1633</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
