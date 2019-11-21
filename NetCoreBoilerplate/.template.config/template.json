@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "SuddenGunter",
+    "classifications": [ "Template", "Web", "C#8" ],
+    "identity": "SuddenGunter.NetCoreBoilerplate.Web",
+    "name": "NetCoreBoilerplate: web app templates with batteries included",
+    "shortName": "NetCoreBoilerplate",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "NetCoreBoilerplate"
+  }
+  
