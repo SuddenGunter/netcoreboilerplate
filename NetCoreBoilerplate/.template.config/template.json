@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "SuddenGunter",
-    "classifications": [ "Template", "Web", "C#8" ],
+    "classifications": [ "Web", "C#8", "Optimized", "Docker" ],
     "identity": "SuddenGunter.NetCoreBoilerplate.Web",
     "name": "NetCoreBoilerplate: web app templates with batteries included",
     "shortName": "NetCoreBoilerplate",
@@ -9,6 +9,15 @@
       "language": "C#",
       "type": "project"
     },
-    "sourceName": "NetCoreBoilerplate"
+    "sourceName": "NetCoreBoilerplate",
+    "symbols": {
+      "packages": {
+        "type": "parameter",
+        "datatype": "string",
+        "replaces": "REQUIRED_PACKAGES",
+        "defaultValue": "",
+        "description": "Required packages to use"
+      }
+    }
   }
   
